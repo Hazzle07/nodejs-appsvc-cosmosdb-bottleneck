@@ -10,11 +10,11 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  webAppName: 'asds'
+  webAppName: 'AzLoadTestApp'
   serviceConnection: 'ATCP S&I Cross'
   azureSubscriptionId: '2450bc03-dac2-46c8-be9f-3799f2364bdb'
-  loadTestResource: 'fhsgtfh'
-  loadTestResourceGroup: 'wtghrthrt'
+  loadTestResource: 'azloadtest'
+  loadTestResourceGroup: 'new-rg-azloadtest'
   location: 'EAST US'
 
 
